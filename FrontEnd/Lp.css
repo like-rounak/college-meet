@@ -1,0 +1,70 @@
+header {
+    background-color: #2bdc4b;
+    height: 50px;
+    padding: 20px;
+  }
+  
+  nav {
+    float: right;
+    opacity: 0.4;
+    height: 100px;
+    background-color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    float: right;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #9c9a9a;
+    font-size: 30px;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .social-media {
+    float: right;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .social-media a:hover {
+    color: gray;
+  }
+  

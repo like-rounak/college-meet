@@ -1,0 +1,18 @@
+section {
+    overflow: hidden;
+  }
+  
+  div {
+    white-space: nowrap;
+    animation: scroll right to left 15s linear infinite;
+  }
+  
+  @keyframes scroll right to left {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
